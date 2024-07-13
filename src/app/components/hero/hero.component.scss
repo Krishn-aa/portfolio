@@ -1,0 +1,17 @@
+// @import "../../../variables";
+@import "../../../variables";
+.hero-main{
+    @include flex-centred;
+    width: 100%;
+}
+
+app-hero-intro{
+    width: 50%;
+    @include border;
+    @include flex-centred;
+}
+app-hero-banner{
+    width: 50%;
+    @include border;
+    background-color: $black-primary;
+}
