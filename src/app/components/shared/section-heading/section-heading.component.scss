@@ -1,11 +1,11 @@
 div{
     width: 100%;
-    margin: 2rem auto;
 }
 .section-heading-container{
     border: 5px solid black;
-    padding: 4px 4%;
+    padding: 0 2rem;
     width: fit-content;
+    text-wrap: nowrap;
 }
 p{
     font-weight: 700;

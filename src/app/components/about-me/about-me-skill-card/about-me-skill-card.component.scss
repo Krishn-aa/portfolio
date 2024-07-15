@@ -1,0 +1,26 @@
+.about-me-skill-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 5rem;
+
+    div{
+        position: relative;
+        img{
+            position: absolute;
+            top: -10%;
+            left: -9%;
+        }
+        width: 30%;
+        margin: 0rem 2rem;
+        p:first-of-type{
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+    }
+    .skill-description{
+        font-weight: 300;
+        text-align: justify;
+    }
+}

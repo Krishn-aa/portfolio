@@ -1,0 +1,7 @@
+<div class="about-me-skill-card-container">
+    <div *ngFor="let skill of skills">
+        <img src="assets/{{skill.url}}" alt="{{skill.title}}">
+        <p>{{skill.title}}</p>
+        <p class="skill-description">{{skill.description}}</p>
+    </div>
+</div>

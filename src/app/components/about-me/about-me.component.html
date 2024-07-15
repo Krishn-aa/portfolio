@@ -1,2 +1,15 @@
-<app-section-heading [content]="'ABOUT ME'"></app-section-heading>
-<h1>hello</h1>
+<div class="about-me-main">
+    <app-section-heading [content]="'ABOUT ME'"></app-section-heading>
+    <div class="about-me-desc">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae doloreme reiciendis
+        expedita mollitia omnis sapiente et delectus atque ab sint? Obcaecati, esse voluptate? Deserunt nesciunt
+        necessitatibus suscipit.
+    </div>
+    <app-explore-button [title]="'EXPLORE'"></app-explore-button>
+    <img src="assets/separator.svg" alt="">
+    <div class="about-me-skills">
+        <app-about-me-skill-card [title]="'DESIGN'"></app-about-me-skill-card>
+        <!-- <app-about-me-skill-card [title]="'DEVELOPEMENT'"></app-about-me-skill-card>
+        <app-about-me-skill-card [title]="'MAINTENANCE'"></app-about-me-skill-card> -->
+    </div>
+</div>

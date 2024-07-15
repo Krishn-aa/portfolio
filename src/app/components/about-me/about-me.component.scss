@@ -1,0 +1,21 @@
+.about-me-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+app-section-heading{
+    margin: 4rem 0rem;
+}
+.about-me-desc{
+   width: 50%;
+   text-align: justify;
+   font-size: 0.8rem;
+}
+app-explore-button{
+    margin: 2rem 0rem;
+}
+img{
+    height:0.8rem;
+}
+
